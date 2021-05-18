@@ -2,13 +2,18 @@
 
 ### My Technical Stack 2021
 **Front-End:** JavaScritp, Vue, React
+
 **Back-End:** Python, Node, SQL, NoSQL
-**Cloud:** GCP, Firebase, AWS, Azure, Heroku, Netlify
+
+**Cloud:** GCP, Firebase, AWS, Azure, Netlify
+
 **VPS:** Linode
 
 ### Basic Setting
 * Chrome
 * Font
+
+
 
 
 ### Homebrew
@@ -28,6 +33,10 @@
 * Jetbrain PyCharm ```brew install --cask pycharm```
 * CotEditor ```brew install --cask coteditor```
 * vim ```brew install vim```
+
+### Database
+* PostgresSQL
+* MongoDB
 
 ### Other Tools
 * Alfred ```brew install --cask alfred```
