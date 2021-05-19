@@ -10,35 +10,40 @@
 **VPS:** Linode
 
 ### Basic Setting
+* Xcode command-line tools ``` xcode-select --install ```
 * Chrome
 * Font
-
-
+  * [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 
 ### Homebrew
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+
+### Package Management
+* Manage multiple Node.js versions (nvm) ``` brew install nvm ```
+
 
 ### Password Manager
-* * 1 Password ```brew install --cask 1password```
+* * 1 Password ``` brew install --cask 1password ```
 
 ### Git
-* Git ```brew install git```
-* Github ```brew install --cask github```
-* lazygit ```brew install lazygit```
+* Git ``` brew install git ```
+* Github ``` brew install --cask github ```
+* lazygit ``` brew install lazygit ```
+
+### Terminal
+* Hyper ``` brew install --cask hyper ```
 
 ### Editors and IDE
-* VS Code ```brew install --cask visual-studio-code```
-* Atom ```brew install --cask atom```
-* Jetbrain PyCharm ```brew install --cask pycharm```
-* CotEditor ```brew install --cask coteditor```
-* vim ```brew install vim```
+* VS Code ``` brew install --cask visual-studio-code ```
+* Atom ``` brew install --cask atom ```
+* Jetbrain PyCharm ``` brew install --cask pycharm ```
+* CotEditor ``` brew install --cask coteditor ```
+* vim ``` brew install vim ```
 
 ### Database
-* PostgresSQL
-* MongoDB
+* PostgresSQL ``` brew install postgresql@12 ```
+* [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
 
 ### Other Tools
-* Alfred ```brew install --cask alfred```
-* MacDown ```brew install --cask macdown```
-* Firefox Developer Edition
+* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
