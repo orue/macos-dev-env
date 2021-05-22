@@ -31,6 +31,13 @@
       brew tap homebrew/cask-fonts
       brew install --cask font-fira-code
     ```
+* Nerd Fonts
+    ```
+        brew tap homebrew/cask-fonts
+        brew install --cask font-hack-nerd-font
+```
+
+
 ### Package Management
 * Manage multiple Node.js versions (nvm) ``` brew install nvm ```
 
