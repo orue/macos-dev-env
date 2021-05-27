@@ -12,7 +12,8 @@ brew install --cask visual-studio-code
 brew install --cask pycharm
 brew install --cask coteditor
 
-
+# Alfred
+brew install --cask alfred
 
 # Communication Apps
 echo "Installing communication apps..."

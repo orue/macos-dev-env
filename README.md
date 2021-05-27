@@ -73,6 +73,7 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
 
 ### Other Tools
 * Chrome
+* Alfred ```brew install --cask alfred```
 * [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 * [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
