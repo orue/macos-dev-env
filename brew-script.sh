@@ -25,3 +25,6 @@ brew install --cask zoom
 # File Storage
 echo "Installing file storage tools..."
 brew install --cask dropbox
+
+# Other Apps
+brew install --cask spotify
