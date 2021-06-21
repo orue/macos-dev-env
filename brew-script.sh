@@ -11,6 +11,7 @@ brew tap homebrew/cask
 brew install --cask visual-studio-code
 brew install --cask pycharm
 brew install --cask coteditor
+brew install --cask sublime-text
 
 # Alfred
 brew install --cask alfred
@@ -28,3 +29,4 @@ brew install --cask dropbox
 
 # Other Apps
 brew install --cask spotify
+brew install --cask balenaetcher
