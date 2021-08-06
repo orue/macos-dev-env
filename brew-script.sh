@@ -6,6 +6,13 @@ echo "Installing brew ..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
+# Programming Languages
+brew install go
+
+
+# VIM Requirement
+brew install ripgrep
+
 
 # IDE and Code Editors
 brew install --cask visual-studio-code
