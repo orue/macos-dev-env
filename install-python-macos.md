@@ -21,6 +21,7 @@ eval "$(pyenv init --path)"
 ```bash
 pip install poetry
 ```
+
 Add the following line to `.bash_profile` or `.zshrc`
 
 ```bash
