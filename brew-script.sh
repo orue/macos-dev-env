@@ -7,16 +7,6 @@ echo "Installing brew ..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
-# Github
-brew install git
-brew install gh
-
-# passwor manager
-brew install --cask 1password
-
-# Terminals
-brew install --cask iterm2
-brew install --cask alacritty
 
 # Terminal tools
 brew install curl
@@ -27,17 +17,20 @@ brew install ranger
 brew install neofetch
 
 # Fonts
-brew tap homebrew/cask-fonts
-brew cask install font-cascadia
-brew install --cask font-fira-code
-brew install --cask font-hack-nerd-font
+brew cask install font-cascadia-code
+brew cask install font-cascadia-code-pl
+brew cask install font-cascadia-mono
+brew cask install font-cascadia-mono-pl
+brew cask install font-fira-code
+brew install font-inconsolata
+
 
 # Browsers
 brew install --cask firefox
 
 # Programming Tools
 brew install fnm
-# brew install yarn
+brew install yarn
 
 
 # Neovim

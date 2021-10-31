@@ -32,21 +32,20 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
 
 ### Terminal
 
-[iTerm2](https://iterm2.com/)
+[Alacritty](https://github.com/alacritty/alacritty)
 
 ```bash
- brew install --cask iterm2
+ brew install --cask alacritty
 ```
 
-### Install curl, wget
-
-```bash
-brew install curl
-```
+Terminal Fonts
 
 ```bash
- brew install wget
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
 ```
+
+---
 
 ### Git
 
@@ -60,6 +59,18 @@ brew install curl
   ```bash
   brew install gh
   ```
+
+---
+
+### Install curl, wget
+
+```bash
+brew install curl
+```
+
+```bash
+ brew install wget
+```
 
 ### Password Manager
 
