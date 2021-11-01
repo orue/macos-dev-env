@@ -26,7 +26,8 @@ brew install font-inconsolata
 
 
 # Browsers
-brew install --cask firefox
+brew install --cask google-chrome
+#brew install --cask firefox
 
 # Programming Tools
 brew install fnm
