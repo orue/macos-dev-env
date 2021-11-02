@@ -7,8 +7,11 @@ echo "Installing brew ..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
+# Terminal
+brew install --cask alacritty
 
 # Terminal tools
+echo "Installing terminal tools"
 brew install curl
 brew install lazygit
 brew install exa
@@ -29,7 +32,6 @@ brew install --cask font-jetbrains-mono
 
 # Browsers
 brew install --cask google-chrome
-#brew install --cask firefox
 
 # Programming Tools
 brew install fnm
