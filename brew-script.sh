@@ -67,3 +67,4 @@ brew install --cask rectangle
 brew install --cask spotify
 brew install --cask balenaetcher
 brew install --cask authy
+brew install --cask figma
