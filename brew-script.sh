@@ -23,6 +23,8 @@ brew cask install font-cascadia-mono
 brew cask install font-cascadia-mono-pl
 brew cask install font-fira-code
 brew install font-inconsolata
+brew install --cask font-jetbrains-mono
+
 
 
 # Browsers
