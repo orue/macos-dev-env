@@ -61,7 +61,7 @@ echo "Installing file storage tools..."
 brew install --cask dropbox
 
 # Other Apps
-# brew install --cask rectangle
+brew install --cask rectangle
 brew install --cask spotify
 brew install --cask balenaetcher
 brew install --cask authy
