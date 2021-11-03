@@ -45,6 +45,7 @@ brew install neovim
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
 brew install --cask visual-studio-code
+brew install --cask sublime-text
 brew install --cask pycharm
 brew install --cask coteditor
 brew install --cask insomnia
