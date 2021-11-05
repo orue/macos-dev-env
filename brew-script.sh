@@ -8,7 +8,8 @@ echo "Installing brew cask..."
 brew tap homebrew/cask
 
 # Terminal
-brew install --cask alacritty
+brew install --cask iterm2
+
 
 # Terminal tools
 echo "Installing terminal tools"
