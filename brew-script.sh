@@ -32,7 +32,7 @@ brew install --cask font-jetbrains-mono
 
 
 # Browsers
-brew install --cask google-chrome
+# brew install --cask google-chrome
 
 # Programming Tools
 brew install fnm
@@ -46,12 +46,12 @@ brew install neovim
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
 brew install --cask visual-studio-code
-brew install --cask sublime-text
-brew install --cask pycharm
+# brew install --cask sublime-text
+# brew install --cask pycharm
 brew install --cask coteditor
-brew install --cask insomnia
-brew install --cask pgadmin4
-brew install neovim
+# brew install --cask insomnia
+# brew install --cask pgadmin4
+# brew install neovim
 
 # Alfred
 brew install --cask alfred
@@ -64,7 +64,7 @@ brew install --cask zoom
 
 # File Storage
 echo "Installing file storage tools..."
-brew install --cask dropbox
+# brew install --cask dropbox
 
 # Other Apps
 brew install --cask rectangle
