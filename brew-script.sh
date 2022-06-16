@@ -8,7 +8,6 @@ echo "Installing brew cask..."
 brew tap homebrew/cask
 
 # Terminal
-#brew install --cask iterm2
 brew install --cask hyper
 
 # Terminal tools
@@ -21,22 +20,22 @@ brew install ranger
 brew install neofetch
 
 # Fonts
-brew cask install font-cascadia-code
-brew cask install font-cascadia-code-pl
-brew cask install font-cascadia-mono
-brew cask install font-cascadia-mono-pl
-brew cask install font-fira-code
-brew install font-inconsolata
-brew install --cask font-jetbrains-mono
+# brew cask install font-cascadia-code
+# brew cask install font-cascadia-code-pl
+# brew cask install font-cascadia-mono
+# brew cask install font-cascadia-mono-pl
+# brew cask install font-fira-code
+# brew install font-inconsolata
+# brew install --cask font-jetbrains-mono
 
 
 
 # Browsers
-# brew install --cask google-chrome
+brew install --cask google-chrome
 
 # Programming Tools
-brew install fnm
-brew install yarn
+# brew install fnm
+# brew install yarn
 
 
 # Neovim
@@ -46,10 +45,10 @@ brew install neovim
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
 brew install --cask visual-studio-code
-# brew install --cask sublime-text
+brew install --cask sublime-text
 brew install --cask pycharm
 brew install --cask coteditor
-brew install --cask insomnia
+# brew install --cask insomnia
 
 
 # Alfred
@@ -57,8 +56,8 @@ brew install --cask alfred
 
 # Communication Apps
 echo "Installing communication apps..."
-brew install --cask microsoft-teams
-brew install --cask slack
+# brew install --cask microsoft-teams
+# brew install --cask slack
 brew install --cask zoom
 
 # File Storage
