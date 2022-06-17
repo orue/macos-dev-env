@@ -1,10 +1,10 @@
-## My Development Environment macOS 2021 Edition
+## My Development Environment macOS 2022 Edition
 
 ---
 
 https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462
 
-### My Technical Stack 2021
+### My Technical Stack 2022
 
 **Front-End:** JavaScritp, Vue, React, Next, Nuxt
 
@@ -30,22 +30,7 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Terminal
 
-[Alacritty](https://github.com/alacritty/alacritty)
-
-```bash
- brew install --cask alacritty
-```
-
-Terminal Fonts
-
-```bash
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
-```
-
----
 
 ### Git
 
@@ -62,15 +47,6 @@ brew install --cask font-hack-nerd-font
 
 ---
 
-### Install curl, wget
-
-```bash
-brew install curl
-```
-
-```bash
- brew install wget
-```
 
 ### Password Manager
 
@@ -80,14 +56,6 @@ brew install curl
  brew install --cask 1password
 ```
 
-Terminal Font
-
-- Nerd Fonts
-
-  ```
-      brew tap homebrew/cask-fonts
-      brew install --cask font-hack-nerd-font
-  ```
 
 ---
 
