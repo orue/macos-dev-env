@@ -20,13 +20,6 @@ brew install ranger
 brew install neofetch
 
 # Fonts
-# brew cask install font-cascadia-code
-# brew cask install font-cascadia-code-pl
-# brew cask install font-cascadia-mono
-# brew cask install font-cascadia-mono-pl
-# brew cask install font-fira-code
-# brew install font-inconsolata
-# brew install --cask font-jetbrains-mono
 
 
 
@@ -34,8 +27,8 @@ brew install neofetch
 brew install --cask google-chrome
 
 # Programming Tools
-# brew install fnm
-# brew install yarn
+brew install fnm
+brew install yarn
 
 
 # Neovim
@@ -48,7 +41,6 @@ brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask pycharm
 brew install --cask coteditor
-# brew install --cask insomnia
 
 
 # Alfred
@@ -56,8 +48,6 @@ brew install --cask alfred
 
 # Communication Apps
 echo "Installing communication apps..."
-# brew install --cask microsoft-teams
-# brew install --cask slack
 brew install --cask zoom
 
 # File Storage
