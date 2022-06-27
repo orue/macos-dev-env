@@ -1,8 +1,7 @@
 #!/bin/sh
 
-# Note: Check all apps for MacOS M1/M2 Chip
 
-echo "Installing brew ..."
+echo "Brewing ..."
 
 echo "Installing brew cask..."
 brew tap homebrew/cask
@@ -23,7 +22,6 @@ brew install neofetch
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 
-
 # Browsers
 brew install --cask google-chrome
 
@@ -32,17 +30,23 @@ brew install fnm
 brew install yarn
 
 
-# Neovim
-brew install neovim
-
-
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
+brew install neovim
 brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask pycharm
+brew install --cask webstorm
 brew install --cask coteditor
 
+# Database
+echo "Installaing PostgreSQL and MongoDB"
+brew install postgresql
+
+
+
+echo "Installing Docker"
+brew install --cask docker
 
 # Alfred
 brew install --cask alfred
@@ -56,8 +60,16 @@ echo "Installing file storage tools..."
 # brew install --cask dropbox
 
 # Other Apps
-brew install --cask rectangle
+# brew install --cask rectangle
 brew install --cask spotify
 brew install --cask balenaetcher
 brew install --cask authy
 brew install --cask figma
+
+# Microsoft Office 365 and Team
+echo "Installing Microsoft Office 365 and Teams"
+brew install --cask microsoft-office
+brew install --cask microsoft-teams
+
+
+echo "Brewing Complete ..."

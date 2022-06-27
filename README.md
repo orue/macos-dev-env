@@ -22,7 +22,7 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
  xcode-select --install
 ```
 
-### Homebrew
+### Install Homebrew
 
 [Homebrew](https://brew.sh/)
 
@@ -30,7 +30,11 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+### Install Rosetta 2
 
+```bash
+sudo softwareupdate --install-rosetta
+```
 
 ### Git
 
@@ -77,3 +81,7 @@ defaults write com.apple.dock springboard-columns -int 6;killall Dock
 - ### Keytron Auto sleep
 
   The keyboard goes to Auto Sleep Mode in 10 mins of sitting idle to save battery. **Press fn + S + O (for 3 seconds)** to disable the Auto Sleep Mode. If you want to go back to the Auto Sleep Mode, press fn + S + O (for 3 seconds) again.
+
+
+
+https://magnet.crowdcafe.com/
