@@ -65,6 +65,7 @@ brew install --cask spotify
 brew install --cask balenaetcher
 brew install --cask authy
 brew install --cask figma
+brew install --cask notion
 
 # Microsoft Office 365 and Team
 echo "Installing Microsoft Office 365 and Teams"
