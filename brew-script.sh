@@ -67,6 +67,7 @@ brew install --cask balenaetcher
 brew install --cask authy
 brew install --cask figma
 brew install --cask evernote
+brew install --cask postman
 
 
 
