@@ -18,6 +18,7 @@ brew install bat
 brew install ranger
 brew install neofetch
 brew install http-server
+brew install fig
 
 # Fonts
 brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
