@@ -57,6 +57,7 @@ brew install --cask alfred
 echo "Installing communication apps..."
 brew install --cask zoom
 brew install --cask slack
+brew install --cask discord
 
 # File Storage
 echo "Installing file storage tools..."
