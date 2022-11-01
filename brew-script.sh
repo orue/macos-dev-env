@@ -27,9 +27,13 @@ brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 # Browsers
 brew install --cask google-chrome
 
-# Programming Tools
+# Node Tools
 brew install fnm
 brew install yarn
+
+# Python Tools
+brew install pyenv
+brew install pipx
 
 
 # IDE, Code Editors, Dev-Tools
@@ -38,7 +42,6 @@ brew install neovim
 brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask pycharm
-brew install --cask webstorm
 brew install --cask coteditor
 
 # Database
@@ -65,13 +68,11 @@ echo "Installing file storage tools..."
 
 # Other Apps
 brew install --cask dropzone
-brew install --cask spotify
 brew install --cask balenaetcher
 brew install --cask authy
-brew install --cask figma
-brew install --cask evernote
 brew install --cask postman
 brew install --cask insomnia
+brew install --cask inkdrop
 
 
 
