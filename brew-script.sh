@@ -6,6 +6,9 @@ echo "Brewing ..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
+# Password
+brew install --cask 1password
+
 # Terminal
 brew install --cask hyper
 
