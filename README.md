@@ -1,10 +1,12 @@
-## My Development Environment macOS 2022 Edition
+# My Development Environment macOS 2023 Edition
 
 ---
 
 https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462
 
-### My Technical Stack 2022
+## My Technical Stack 2023
+
+**OS:** MacOS 13 Ventura
 
 **Front-End:** JavaScritp, Vue, React, Next, Nuxt
 
@@ -14,6 +16,13 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
 
 **VPS:** Linode
 
+---
+
+### Install Rosetta 2
+
+```bash
+sudo softwareupdate --install-rosetta
+```
 ### Install Xcode
 
 - Xcode command-line tools
@@ -21,7 +30,27 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
 ```bash
  xcode-select --install
 ```
+#### For XCode Update
+Please update your Command Line Tools (CLT) or delete it if no updates are available.
+Update them from Software Update in System Preferences or run:
+```bash
+  softwareupdate --all --install --force
+```
 
+If that doesn't show you any updates, run:
+ ```bash
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+```
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 14.1
+
+https://developer.apple.com/download/all/
+
+
+---
 ### Install Homebrew
 
 [Homebrew](https://brew.sh/)
@@ -30,12 +59,8 @@ https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### Install Rosetta 2
 
-```bash
-sudo softwareupdate --install-rosetta
-```
-
+---
 ### Git
 
 - Git
@@ -48,18 +73,6 @@ sudo softwareupdate --install-rosetta
   ```bash
   brew install gh
   ```
-
----
-
-
-### Password Manager
-
-[1password](https://1password.com/)
-
-```bash
- brew install --cask 1password
-```
-
 
 ---
 

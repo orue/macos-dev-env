@@ -10,6 +10,6 @@ If that doesn't show you any updates, run:
 
 Alternatively, manually download them from:
   https://developer.apple.com/download/all/.
-You should download the Command Line Tools for Xcode 14.1.
+You should download the Command Line Tools for Xcode 14.1
 
 https://developer.apple.com/download/all/
