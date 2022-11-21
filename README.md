@@ -59,6 +59,11 @@ https://developer.apple.com/download/all/
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+To access Homebrew from command line, add the following line to .zshrc file
+
+```bash
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 ---
 ### Git
