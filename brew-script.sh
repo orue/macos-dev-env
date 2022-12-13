@@ -11,6 +11,7 @@ brew install --cask 1password
 
 # Terminal
 brew install --cask hyper
+brew install --cask iterm2
 
 # Terminal tools
 echo "Installing terminal tools"
@@ -37,6 +38,9 @@ brew install yarn
 # Python Tools
 brew install pyenv
 brew install pipx
+
+# File diff Tool
+brew install --cask kaleidoscope
 
 
 # IDE, Code Editors, Dev-Tools
