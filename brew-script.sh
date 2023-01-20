@@ -1,7 +1,20 @@
 #!/bin/sh
+# Check for Homebrew,
+# Install if we don't have it
+if test ! $(which brew); then
+  echo "Installing homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
 
+# Update homebrew recipes
+echo "Updating homebrew..."
+brew update
 
-echo "Brewing ..."
+echo "Start Brewing ..."
+
+# CURL / WGET
+brew install curl
+brew install wget
 
 echo "Installing brew cask..."
 brew tap homebrew/cask
@@ -11,50 +24,54 @@ brew install --cask 1password
 
 # Terminal
 brew install --cask hyper
-brew install --cask iterm2
 
 # Terminal tools
 echo "Installing terminal tools"
-brew install curl
-brew install lazygit
 brew install exa
 brew install bat
 brew install ranger
 brew install neofetch
 brew install http-server
 brew install fig
+brew install unzip
+
+#Cloud CLI
+brew install awscli
 
 # Fonts
-brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
-
+# brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
 
 # Browsers
 brew install --cask google-chrome
 
-# Node Tools
-brew install fnm
-brew install yarn
-
-# Python Tools
-brew install pyenv
-brew install pipx
-
-# File diff Tool
-brew install --cask kaleidoscope
-
-
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
 brew install neovim
+brew install --cask jetbrains-toolbox
 brew install --cask visual-studio-code
 brew install --cask sublime-text
-brew install --cask pycharm
 brew install --cask coteditor
+brew install --cask insomnia
+brew install --cask inkdrop
+brew install --cask evernote
+
+# Language
+## Node / Javascript
+brew install fnm
+nvm install node
+brew install yarn
+
+## Python
+brew install pyenv
+brew install pipx
+
+## Golang
+brew install go
+
 
 # Database
 echo "Installaing PostgreSQL and MongoDB"
 brew install postgresql
-
 
 
 echo "Installing Docker"
@@ -71,16 +88,13 @@ brew install --cask discord
 
 # File Storage
 echo "Installing file storage tools..."
-# brew install --cask dropbox
+
 
 # Other Apps
-brew install --cask dropzone
+brew install --cask rectangle
 brew install --cask balenaetcher
-brew install --cask authy
-brew install --cask postman
-brew install --cask insomnia
-brew install --cask inkdrop
-
+brew install --cask spotify
+brew install --cask fliqlo
 
 
 # Microsoft Office 365 and Team
