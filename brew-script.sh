@@ -12,6 +12,10 @@ brew update
 
 echo "Start Brewing ..."
 
+# GitHub cli
+## https://cli.github.com/
+brew install gh
+
 # CURL / WGET
 brew install curl
 brew install wget
@@ -23,7 +27,7 @@ brew tap homebrew/cask
 brew install --cask 1password
 
 # Terminal
-brew install --cask hyper
+brew install --cask iterm2
 
 # Terminal tools
 echo "Installing terminal tools"
