@@ -43,7 +43,9 @@ brew install unzip
 brew install awscli
 
 # Fonts
-# brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+brew install --cask font-hack-nerd-font
 
 # Browsers
 brew install --cask google-chrome
@@ -71,11 +73,6 @@ brew install pipx
 
 ## Golang
 brew install go
-
-
-# Database
-echo "Installaing PostgreSQL and MongoDB"
-brew install postgresql
 
 
 echo "Installing Docker"
