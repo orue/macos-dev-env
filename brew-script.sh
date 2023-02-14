@@ -60,6 +60,7 @@ brew install --cask coteditor
 brew install --cask insomnia
 brew install --cask inkdrop
 brew install --cask evernote
+brew install --cask macdown
 
 # Language
 ## Node / Javascript
