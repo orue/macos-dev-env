@@ -22,6 +22,8 @@ brew install wget
 
 echo "Installing brew cask..."
 brew tap homebrew/cask
+brew tap homebrew/cask-versions
+
 
 # Password
 brew install --cask 1password
@@ -49,6 +51,8 @@ brew install --cask font-hack-nerd-font
 
 # Browsers
 brew install --cask google-chrome
+brew install --cask firefox-developer-edition
+
 
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
