@@ -35,9 +35,6 @@ brew install --cask iterm2
 echo "Installing terminal tools"
 brew install exa
 brew install bat
-brew install ranger
-brew install neofetch
-brew install http-server
 brew install fig
 brew install unzip
 
@@ -50,20 +47,19 @@ brew install --cask font-fira-code
 brew install --cask font-hack-nerd-font
 
 # Browsers
-brew install --cask google-chrome
-brew install --cask firefox-developer-edition
+# brew install --cask google-chrome
+# brew install --cask firefox-developer-edition
 
 
 # IDE, Code Editors, Dev-Tools
 echo "Installing IDE, Editors and Dev Tools apps..."
 brew install neovim
-brew install --cask jetbrains-toolbox
 brew install --cask visual-studio-code
 brew install --cask sublime-text
 brew install --cask coteditor
 brew install --cask insomnia
 brew install --cask inkdrop
-brew install --cask evernote
+# brew install --cask evernote
 brew install --cask macdown
 
 # Language
@@ -77,7 +73,7 @@ brew install pyenv
 brew install pipx
 
 ## Golang
-brew install go
+# brew install go
 
 
 echo "Installing Docker"
@@ -89,8 +85,8 @@ brew install --cask alfred
 # Communication Apps
 echo "Installing communication apps..."
 brew install --cask zoom
-brew install --cask slack
-brew install --cask discord
+# brew install --cask slack
+# brew install --cask discord
 
 # File Storage
 echo "Installing file storage tools..."
