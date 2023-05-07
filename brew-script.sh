@@ -14,7 +14,7 @@ echo "Start Brewing ..."
 
 # GitHub cli
 ## https://cli.github.com/
-brew install gh
+# brew install gh
 
 # CURL / WGET
 brew install curl
